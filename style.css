@@ -328,6 +328,7 @@ input[type="search"]::-webkit-search-results-decoration {
 	padding-bottom: 50vh;
 }
 .song {
+	color: black;
 	font-family: inherit;
 	font-variation-settings: "wght" 900, "SRFF" 0;
 	font-weight: 900;
@@ -674,7 +675,8 @@ input[type="search"]::-webkit-search-results-decoration {
 .player-playbar::-webkit-slider-thumb {
 	-webkit-appearance: none;
 	appearance: none;
-	width: 5px;
+	width: 20px;
+	border-radius: 50%;
 	height: 20px;
 	border: 1px solid black;
 	background-color: black;
@@ -708,7 +710,8 @@ input[type="search"]::-webkit-search-results-decoration {
 .player-volume::-webkit-slider-thumb {
 	-webkit-appearance: none;
 	appearance: none;
-	width: 5px;
+	width: 20px;
+	border-radius: 50%;
 	height: 20px;
 	border: 1px solid black;
 	background-color: black;
