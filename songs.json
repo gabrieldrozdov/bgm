@@ -1,0 +1,1159 @@
+{
+	"trills": {
+		"name": "Trills",
+		"alpha": "trills",
+		"tags": [
+			"Anxious",
+			"Intense",
+			"Atmospheric"
+		],
+		"length": "1:06",
+		"length-sorting": 66,
+		"bpm": 999,
+		"date": "Feb 28 2018",
+		"date-sorting": 180228,
+		"file": "99-histories/trills.mp3",
+		"download": "99-histories/trills.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/99-histories' target='_blank'>99 Histories</a>"
+	},
+	"to-whom-it-may-concern": {
+		"name": "To Whom It May Concern",
+		"alpha": "to-whom-it-may-concern",
+		"tags": [
+			"Cheerful",
+			"Gentle",
+			"Orchestral"
+		],
+		"length": "3:20",
+		"length-sorting": 200,
+		"bpm": 123,
+		"date": "Feb 28 2018",
+		"date-sorting": 180228,
+		"file": "99-histories/to-whom-it-may-concern.mp3",
+		"download": "99-histories/to-whom-it-may-concern.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/99-histories' target='_blank'>99 Histories</a>"
+	},
+	"roundabouts": {
+		"name": "Roundabouts",
+		"alpha": "roundabouts",
+		"tags": [
+			"Atmospheric",
+			"Pensive"
+		],
+		"length": "0:46",
+		"length-sorting": 46,
+		"bpm": 999,
+		"date": "Feb 28 2018",
+		"date-sorting": 180228,
+		"file": "99-histories/roundabouts.mp3",
+		"download": "99-histories/roundabouts.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/99-histories' target='_blank'>99 Histories</a>"
+	},
+	"overtones": {
+		"name": "Overtones",
+		"alpha": "overtones",
+		"tags": [
+			"Atmospheric",
+			"Anxious"
+		],
+		"length": "1:22",
+		"length-sorting": 82,
+		"bpm": 999,
+		"date": "Feb 28 2018",
+		"date-sorting": 180228,
+		"file": "99-histories/overtones.mp3",
+		"download": "99-histories/overtones.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/99-histories' target='_blank'>99 Histories</a>"
+	},
+	"week-two": {
+		"name": "Week Two",
+		"alpha": "week-two",
+		"tags": [
+			"Hopeful",
+			"Calm",
+			"Orchestral"
+		],
+		"length": "2:09",
+		"length-sorting": 129,
+		"bpm": 85,
+		"date": "Feb 28 2018",
+		"date-sorting": 180228,
+		"file": "99-histories/week-two.mp3",
+		"download": "99-histories/week-two.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/99-histories' target='_blank'>99 Histories</a>"
+	},
+	"the-rocking-horse-winner": {
+		"name": "The Rocking Horse Winner",
+		"alpha": "rocking-horse-winner",
+		"tags": [
+			"Hopeful",
+			"Calm",
+			"Orchestral"
+		],
+		"length": "3:33",
+		"length-sorting": 213,
+		"bpm": 90,
+		"date": "Feb 28 2018",
+		"date-sorting": 180228,
+		"file": "99-histories/the-rocking-horse-winner.mp3",
+		"download": "99-histories/the-rocking-horse-winner.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/99-histories' target='_blank'>99 Histories</a>"
+	},
+	"feeling-a-little-better-today": {
+		"name": "Feeling (A Little) Better Today",
+		"alpha": "feeling-a-little-better-today",
+		"tags": [
+			"Ambient",
+			"Orchestral",
+			"Pensive"
+		],
+		"length": "1:06",
+		"length-sorting": 66,
+		"bpm": 135,
+		"date": "Apr 12 2019",
+		"date-sorting": 190412,
+		"file": "eurydice/feeling-a-little-better-today.mp3",
+		"download": "eurydice/feeling-a-little-better-today.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/eurydice' target='_blank'>Eurydice</a>"
+	},
+	"waterworks": {
+		"name": "Waterworks",
+		"alpha": "waterworks",
+		"tags": [
+			"Orchestral",
+			"Rock"
+		],
+		"length": "2:03",
+		"length-sorting": 123,
+		"bpm": 122,
+		"date": "Apr 12 2019",
+		"date-sorting": 190412,
+		"file": "eurydice/waterworks.mp3",
+		"download": "eurydice/waterworks.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/eurydice' target='_blank'>Eurydice</a>"
+	},
+	"chamber-music": {
+		"name": "Chamber Music",
+		"alpha": "chamber-music",
+		"tags": [
+			"Ambient",
+			"Orchestral",
+			"Gloomy"
+		],
+		"length": "3:27",
+		"length-sorting": 207,
+		"bpm": 100,
+		"date": "Apr 12 2019",
+		"date-sorting": 190412,
+		"file": "eurydice/chamber-music.mp3",
+		"download": "eurydice/chamber-music.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/eurydice' target='_blank'>Eurydice</a>"
+	},
+	"little-steps": {
+		"name": "Little Steps",
+		"alpha": "little-steps",
+		"tags": [
+			"Ambient",
+			"Orchestral",
+			"Hopeful"
+		],
+		"length": "1:14",
+		"length-sorting": 74,
+		"bpm": 133,
+		"date": "Apr 12 2019",
+		"date-sorting": 190412,
+		"file": "eurydice/little-steps.mp3",
+		"download": "eurydice/little-steps.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/eurydice' target='_blank'>Eurydice</a>"
+	},
+	"walk-in": {
+		"name": "Walk In",
+		"alpha": "walk-in",
+		"tags": [
+			"Ambient",
+			"Orchestral",
+			"Hopeful"
+		],
+		"length": "3:27",
+		"length-sorting": 207,
+		"bpm": 80,
+		"date": "Apr 12 2019",
+		"date-sorting": 190412,
+		"file": "eurydice/walk-in.mp3",
+		"download": "eurydice/walk-in.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/eurydice' target='_blank'>Eurydice</a>"
+	},
+	"descent": {
+		"name": "Descent",
+		"alpha": "descent",
+		"tags": [
+			"Orchestral",
+			"Atmospheric",
+			"Gloomy"
+		],
+		"length": "0:53",
+		"length-sorting": 53,
+		"bpm": 999,
+		"date": "Apr 12 2019",
+		"date-sorting": 190412,
+		"file": "eurydice/descent.mp3",
+		"download": "eurydice/descent.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/eurydice' target='_blank'>Eurydice</a>"
+	},
+	"lou": {
+		"name": "Lou",
+		"alpha": "lou",
+		"tags": [
+			"Orchestral",
+			"Jazzy"
+		],
+		"length": "2:24",
+		"length-sorting": 144,
+		"bpm": 160,
+		"date": "Apr 12 2019",
+		"date-sorting": 190412,
+		"file": "eurydice/lou.mp3",
+		"download": "eurydice/lou.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/eurydice' target='_blank'>Eurydice</a>"
+	},
+	"walk-out": {
+		"name": "Walk Out",
+		"alpha": "walk-out",
+		"tags": [
+			"Orchestral",
+			"Ambient"
+		],
+		"length": "3:41",
+		"length-sorting": 221,
+		"bpm": 140,
+		"date": "Apr 12 2019",
+		"date-sorting": 190412,
+		"file": "eurydice/walk-out.mp3",
+		"download": "eurydice/walk-out.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/eurydice' target='_blank'>Eurydice</a>"
+	},
+	"vanishing": {
+		"name": "Vanishing",
+		"alpha": "vanishing",
+		"tags": [
+			"Orchestral",
+			"Pensive",
+			"Calm"
+		],
+		"length": "0:37",
+		"length-sorting": 37,
+		"bpm": 79,
+		"date": "Apr 12 2019",
+		"date-sorting": 190412,
+		"file": "eurydice/vanishing.mp3",
+		"download": "eurydice/vanishing.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/eurydice' target='_blank'>Eurydice</a>"
+	},
+	"tomato": {
+		"name": "Tomato",
+		"alpha": "tomato",
+		"tags": [
+			"Rock",
+			"Anxious"
+		],
+		"length": "2:37",
+		"length-sorting": 157,
+		"bpm": 90,
+		"date": "Jul 23 2017",
+		"date-sorting": 170723,
+		"file": "moonbug/tomato.mp3",
+		"download": "moonbug/tomato.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/moonbug' target='_blank'>Moonbug</a>"
+	},
+	"region": {
+		"name": "Region",
+		"alpha": "region",
+		"tags": [
+			"Atmospheric"
+		],
+		"length": "1:33",
+		"length-sorting": 93,
+		"bpm": 999,
+		"date": "Jul 23 2017",
+		"date-sorting": 170723,
+		"file": "moonbug/region.mp3",
+		"download": "moonbug/region.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/moonbug' target='_blank'>Moonbug</a>"
+	},
+	"nice": {
+		"name": "Nice",
+		"alpha": "nice",
+		"tags": [
+			"Ambient",
+			"Calm"
+		],
+		"length": "2:37",
+		"length-sorting": 157,
+		"bpm": 130,
+		"date": "Jul 23 2017",
+		"date-sorting": 170723,
+		"file": "moonbug/nice.mp3",
+		"download": "moonbug/nice.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/moonbug' target='_blank'>Moonbug</a>"
+	},
+	"etc": {
+		"name": "Etc",
+		"alpha": "etc",
+		"tags": [
+			"Rock",
+			"Ambient"
+		],
+		"length": "1:58",
+		"length-sorting": 118,
+		"bpm": 105,
+		"date": "Jul 23 2017",
+		"date-sorting": 170723,
+		"file": "moonbug/etc.mp3",
+		"download": "moonbug/etc.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/moonbug' target='_blank'>Moonbug</a>"
+	},
+	"walking": {
+		"name": "Walking",
+		"alpha": "walking",
+		"tags": [
+			"Electronic",
+			"Gloomy"
+		],
+		"length": "3:20",
+		"length-sorting": 200,
+		"bpm": 60,
+		"date": "May 10 2019",
+		"date-sorting": 190510,
+		"file": "karaoke-superstar/walking.mp3",
+		"download": "karaoke-superstar/walking.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/karaoke-superstar' target='_blank'>Karaoke Superstar</a>"
+	},
+	"watching": {
+		"name": "Watching",
+		"alpha": "watching",
+		"tags": [
+			"Electronic",
+			"Rhythmic",
+			"Anxious"
+		],
+		"length": "0:29",
+		"length-sorting": 29,
+		"bpm": 140,
+		"date": "May 10 2019",
+		"date-sorting": 190510,
+		"file": "karaoke-superstar/watching.mp3",
+		"download": "karaoke-superstar/watching.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/karaoke-superstar' target='_blank'>Karaoke Superstar</a>"
+	},
+	"biking": {
+		"name": "Biking",
+		"alpha": "biking",
+		"tags": [
+			"Electronic",
+			"Hopeful"
+		],
+		"length": "0:56",
+		"length-sorting": 56,
+		"bpm": 95,
+		"date": "May 10 2019",
+		"date-sorting": 190510,
+		"file": "karaoke-superstar/biking.mp3",
+		"download": "karaoke-superstar/biking.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/karaoke-superstar' target='_blank'>Karaoke Superstar</a>"
+	},
+	"shopping": {
+		"name": "Shopping",
+		"alpha": "shopping",
+		"tags": [
+			"Electronic",
+			"Intense"
+		],
+		"length": "1:26",
+		"length-sorting": 86,
+		"bpm": 190,
+		"date": "May 10 2019",
+		"date-sorting": 190510,
+		"file": "karaoke-superstar/shopping.mp3",
+		"download": "karaoke-superstar/shopping.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/karaoke-superstar' target='_blank'>Karaoke Superstar</a>"
+	},
+	"empty-bowl": {
+		"name": "Empty Bowl",
+		"alpha": "empty-bowl",
+		"tags": [
+			"Rhythmic"
+		],
+		"length": "1:12",
+		"length-sorting": 72,
+		"bpm": 999,
+		"date": "Aug 8 2014",
+		"date-sorting": 140808,
+		"file": "granola/empty-bowl.mp3",
+		"download": "granola/empty-bowl.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/granola' target='_blank'>Granola</a>"
+	},
+	"in-dublin": {
+		"name": "In Dublin",
+		"alpha": "in-dublin",
+		"tags": [
+			"Ambient"
+		],
+		"length": "1:12",
+		"length-sorting": 72,
+		"bpm": 75,
+		"date": "Aug 8 2014",
+		"date-sorting": 140808,
+		"file": "granola/in-dublin.mp3",
+		"download": "granola/in-dublin.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/granola' target='_blank'>Granola</a>"
+	},
+	"dirk-diggler": {
+		"name": "Dirk Diggler",
+		"alpha": "dirk-diggler",
+		"tags": [
+			"Loose",
+			"Jazzy"
+		],
+		"length": "0:16",
+		"length-sorting": 16,
+		"bpm": 133,
+		"date": "Aug 8 2014",
+		"date-sorting": 140808,
+		"file": "granola/dirk-diggler.mp3",
+		"download": "granola/dirk-diggler.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/granola' target='_blank'>Granola</a>"
+	},
+	"jen-gender": {
+		"name": "Jen Gender",
+		"alpha": "jen-gender",
+		"tags": [
+			"Pensive"
+		],
+		"length": "0:47",
+		"length-sorting": 47,
+		"bpm": 121,
+		"date": "Aug 8 2014",
+		"date-sorting": 140808,
+		"file": "granola/jen-gender.mp3",
+		"download": "granola/jen-gender.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/granola' target='_blank'>Granola</a>"
+	},
+	"bouillabaisse": {
+		"name": "Bouillabaisse",
+		"alpha": "bouillabaisse",
+		"tags": [
+			"Rhythmic",
+			"Rock"
+		],
+		"length": "2:12",
+		"length-sorting": 132,
+		"bpm": 140,
+		"date": "Aug 8 2014",
+		"date-sorting": 140808,
+		"file": "granola/bouillabaisse.mp3",
+		"download": "granola/bouillabaisse.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/granola' target='_blank'>Granola</a>"
+	},
+	"not-by-my-hand": {
+		"name": "Not By My Hand",
+		"alpha": "not-by-my-hand",
+		"tags": [
+			"Jazzy",
+			"Orchestral"
+		],
+		"length": "9:00",
+		"length-sorting": 540,
+		"bpm": 999,
+		"date": "Dec 18 2014",
+		"date-sorting": 141218,
+		"file": "something-happens/not-by-my-hand.mp3",
+		"download": "something-happens/not-by-my-hand.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/something-happens' target='_blank'>Something Happens</a>"
+	},
+	"end-of-the-night": {
+		"name": "End of the Night",
+		"alpha": "end-of-the-night",
+		"tags": [
+			"Jazzy",
+			"Orchestral"
+		],
+		"length": "3:03",
+		"length-sorting": 183,
+		"bpm": 122,
+		"date": "Dec 18 2014",
+		"date-sorting": 141218,
+		"file": "something-happens/end-of-the-night.mp3",
+		"download": "something-happens/end-of-the-night.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/something-happens' target='_blank'>Something Happens</a>"
+	},
+	"the-party": {
+		"name": "The Party",
+		"alpha": "party",
+		"tags": [
+			"Jazzy",
+			"Orchestral"
+		],
+		"length": "4:15",
+		"length-sorting": 255,
+		"bpm": 999,
+		"date": "Dec 18 2014",
+		"date-sorting": 141218,
+		"file": "something-happens/the-party.mp3",
+		"download": "something-happens/the-party.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/something-happens' target='_blank'>Something Happens</a>"
+	},
+	"molloy-and-malone": {
+		"name": "Molloy and Malone",
+		"alpha": "molloy-and-malone",
+		"tags": [
+			"Jazzy",
+			"Orchestral"
+		],
+		"length": "6:56",
+		"length-sorting": 416,
+		"bpm": 999,
+		"date": "Dec 18 2014",
+		"date-sorting": 141218,
+		"file": "something-happens/molloy-and-malone.mp3",
+		"download": "something-happens/molloy-and-malone.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/something-happens' target='_blank'>Something Happens</a>"
+	},
+	"travellers-song": {
+		"name": "Traveller’s Song",
+		"alpha": "travellers-song",
+		"tags": [
+			"Jazzy",
+			"Orchestral"
+		],
+		"length": "2:37",
+		"length-sorting": 157,
+		"bpm": 126,
+		"date": "Dec 18 2014",
+		"date-sorting": 141218,
+		"file": "something-happens/travellers-song.mp3",
+		"download": "something-happens/travellers-song.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/something-happens' target='_blank'>Something Happens</a>"
+	},
+	"come-into-the-room": {
+		"name": "Come Into The Room",
+		"alpha": "come-into-the-room",
+		"tags": [
+			"Jazzy",
+			"Orchestral"
+		],
+		"length": "3:32",
+		"length-sorting": 212,
+		"bpm": 56,
+		"date": "Dec 18 2014",
+		"date-sorting": 141218,
+		"file": "something-happens/come-into-the-room.mp3",
+		"download": "something-happens/come-into-the-room.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/something-happens' target='_blank'>Something Happens</a>"
+	},
+	"main-theme": {
+		"name": "Main Theme",
+		"alpha": "main-theme",
+		"tags": [
+			"Jazzy",
+			"Orchestral"
+		],
+		"length": "2:32",
+		"length-sorting": 152,
+		"bpm": 117,
+		"date": "Dec 18 2014",
+		"date-sorting": 141218,
+		"file": "something-happens/main-theme.mp3",
+		"download": "something-happens/main-theme.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/something-happens' target='_blank'>Something Happens</a>"
+	},
+	"one-or-two-or-two-or-one": {
+		"name": "One or Two or Two or One",
+		"alpha": "one-or-two-or-two-or-one",
+		"tags": [
+			"Jazzy",
+			"Anxious",
+			"Rhythmic"
+		],
+		"length": "1:35",
+		"length-sorting": 95,
+		"bpm": 100,
+		"date": "May 3 2018",
+		"date-sorting": 180503,
+		"file": "rhinoceros/one-or-two-or-two-or-one.mp3",
+		"download": "rhinoceros/one-or-two-or-two-or-one.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a>"
+	},
+	"syll-o-gism": {
+		"name": "Syll-O-Gism",
+		"alpha": "syll-o-gism",
+		"tags": [
+			"Jazzy",
+			"Pensive"
+		],
+		"length": "3:17",
+		"length-sorting": 197,
+		"bpm": 100,
+		"date": "May 3 2018",
+		"date-sorting": 180503,
+		"file": "rhinoceros/syll-o-gism.mp3",
+		"download": "rhinoceros/syll-o-gism.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a>"
+	},
+	"steps-and-stomps": {
+		"name": "Steps and Stomps",
+		"alpha": "steps-and-stomps",
+		"tags": [
+			"Orchestral",
+			"Gentle",
+			"Pensive"
+		],
+		"length": "1:30",
+		"length-sorting": 90,
+		"bpm": 75,
+		"date": "May 3 2018",
+		"date-sorting": 180503,
+		"file": "rhinoceros/steps-and-stomps.mp3",
+		"download": "rhinoceros/steps-and-stomps.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a>"
+	},
+	"uh-oh-rhino": {
+		"name": "Uh Oh Rhino",
+		"alpha": "uh-oh-rhino",
+		"tags": [
+			"Orchestral",
+			"Cheerful"
+		],
+		"length": "1:37",
+		"length-sorting": 97,
+		"bpm": 180,
+		"date": "May 3 2018",
+		"date-sorting": 180503,
+		"file": "rhinoceros/uh-oh-rhino.mp3",
+		"download": "rhinoceros/uh-oh-rhino.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a>"
+	},
+	"rhino-rhythm": {
+		"name": "Rhino Rhythm",
+		"alpha": "rhino-rhythm",
+		"tags": [
+			"Rhythmic",
+			"Intense"
+		],
+		"length": "2:27",
+		"length-sorting": 147,
+		"bpm": 80,
+		"date": "May 3 2018",
+		"date-sorting": 180503,
+		"file": "rhinoceros/rhino-rhythm.mp3",
+		"download": "rhinoceros/rhino-rhythm.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a>"
+	},
+	"rhino-melody": {
+		"name": "Rhino Melody",
+		"alpha": "rhino-melody",
+		"tags": [
+			"Atmospheric",
+			"Ambient"
+		],
+		"length": "2:39",
+		"length-sorting": 159,
+		"bpm": 999,
+		"date": "May 3 2018",
+		"date-sorting": 180503,
+		"file": "rhinoceros/rhino-melody.mp3",
+		"download": "rhinoceros/rhino-melody.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a>"
+	},
+	"radio-oh-oh": {
+		"name": "Radio Oh Oh",
+		"alpha": "radio-oh-oh",
+		"tags": [
+			"Jazzy",
+			"Calm",
+			"Loose"
+		],
+		"length": "4:10",
+		"length-sorting": 250,
+		"bpm": 120,
+		"date": "May 3 2018",
+		"date-sorting": 180503,
+		"file": "rhinoceros/radio-oh-oh.mp3",
+		"download": "rhinoceros/radio-oh-oh.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a>"
+	},
+	"postshow-take-it-slow": {
+		"name": "Postshow Take It Slow",
+		"alpha": "postshow-take-it-slow",
+		"tags": [
+			"Ambient",
+			"Jazzy"
+		],
+		"length": "2:40",
+		"length-sorting": 160,
+		"bpm": 120,
+		"date": "May 3 2018",
+		"date-sorting": 180503,
+		"file": "rhinoceros/postshow-take-it-slow.mp3",
+		"download": "rhinoceros/postshow-take-it-slow.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a>"
+	},
+	"do-rhinos-dream-of-stomping-feet": {
+		"name": "Do Rhinos Dream of Stomping Feet",
+		"alpha": "do-rhinos-dream-of-stomping-feet",
+		"tags": [
+			"Intense",
+			"Anxious",
+			"Rhythmic"
+		],
+		"length": "0:46",
+		"length-sorting": 46,
+		"bpm": 999,
+		"date": "May 3 2018",
+		"date-sorting": 180503,
+		"file": "rhinoceros/do-rhinos-dream-of-stomping-feet.mp3",
+		"download": "rhinoceros/do-rhinos-dream-of-stomping-feet.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a>"
+	},
+	"feline-funeral": {
+		"name": "Feline Funeral",
+		"alpha": "feline-funeral",
+		"tags": [
+			"Orchestral"
+		],
+		"length": "1:07",
+		"length-sorting": 67,
+		"bpm": 180,
+		"date": "May 3 2018",
+		"date-sorting": 180503,
+		"file": "rhinoceros/feline-funeral.mp3",
+		"download": "rhinoceros/feline-funeral.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a>"
+	},
+	"preshow-stomp-and-go": {
+		"name": "Preshow Stomp and Go",
+		"alpha": "preshow-stomp-and-go",
+		"tags": [
+			"Orchestral",
+			"Intense"
+		],
+		"length": "1:16",
+		"length-sorting": 76,
+		"bpm": 64,
+		"date": "May 3 2018",
+		"date-sorting": 180503,
+		"file": "rhinoceros/preshow-stomp-and-go.mp3",
+		"download": "rhinoceros/preshow-stomp-and-go.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a>"
+	},
+	"stampede": {
+		"name": "Stampede",
+		"alpha": "stampede",
+		"tags": [
+			"Atmospheric",
+			"Intense"
+		],
+		"length": "1:06",
+		"length-sorting": 66,
+		"bpm": 999,
+		"date": "May 3 2018",
+		"date-sorting": 180503,
+		"file": "rhinoceros/stampede.mp3",
+		"download": "rhinoceros/stampede.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a>"
+	},
+	"2018-07-05-beat1": {
+		"name": "2018 07 05 beat1",
+		"alpha": "2018-07-05-beat1",
+		"tags": [
+			"Ambient",
+			"Rhythmic"
+		],
+		"length": "1:21",
+		"length-sorting": 81,
+		"bpm": 120,
+		"date": "Jul 5 2018",
+		"date-sorting": 180705,
+		"file": "2018-21-pretty-much-everything/2018-07-05-beat1.mp3",
+		"download": "2018-21-pretty-much-everything/2018-07-05-beat1.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2018-07-05-dance-beat": {
+		"name": "2018 07 05 dance beat",
+		"alpha": "2018-07-05-dance-beat",
+		"tags": [
+			"Ambient",
+			"Rhythmic"
+		],
+		"length": "1:15",
+		"length-sorting": 75,
+		"bpm": 100,
+		"date": "Jul 5 2018",
+		"date-sorting": 180705,
+		"file": "2018-21-pretty-much-everything/2018-07-05-dance-beat.mp3",
+		"download": "2018-21-pretty-much-everything/2018-07-05-dance-beat.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2018-07-12-test2": {
+		"name": "2018 07 12 test2",
+		"alpha": "2018-07-12-test2",
+		"tags": [
+			"Atmospheric",
+			"Ambient",
+			"Calm"
+		],
+		"length": "1:53",
+		"length-sorting": 113,
+		"bpm": 90,
+		"date": "Jul 12 2018",
+		"date-sorting": 180712,
+		"file": "2018-21-pretty-much-everything/2018-07-12-test2.mp3",
+		"download": "2018-21-pretty-much-everything/2018-07-12-test2.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2018-08-01-bumbum": {
+		"name": "2018 08 01 bumbum",
+		"alpha": "2018-08-01-bumbum",
+		"tags": [
+			"Rock",
+			"Electronic"
+		],
+		"length": "0:50",
+		"length-sorting": 50,
+		"bpm": 120,
+		"date": "Aug 1 2018",
+		"date-sorting": 180801,
+		"file": "2018-21-pretty-much-everything/2018-08-01-bumbum.mp3",
+		"download": "2018-21-pretty-much-everything/2018-08-01-bumbum.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2018-08-21-sword": {
+		"name": "2018 08 21 sword",
+		"alpha": "2018-08-21-sword",
+		"tags": [
+			"Calm",
+			"Gentle",
+			"Rock"
+		],
+		"length": "2:44",
+		"length-sorting": 164,
+		"bpm": 90,
+		"date": "Aug 21 2018",
+		"date-sorting": 180821,
+		"file": "2018-21-pretty-much-everything/2018-08-21-sword.mp3",
+		"download": "2018-21-pretty-much-everything/2018-08-21-sword.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2018-09-02-do-do-do-do-do-DA-DA-DA": {
+		"name": "2018 09 02 do do do do do DA DA DA",
+		"alpha": "2018-09-02-do-do-do-do-do-DA-DA-DA",
+		"tags": [
+			"Ambient",
+			"Intense",
+			"Electronic"
+		],
+		"length": "0:47",
+		"length-sorting": 47,
+		"bpm": 120,
+		"date": "Sep 2 2018",
+		"date-sorting": 180902,
+		"file": "2018-21-pretty-much-everything/2018-09-02-do-do-do-do-do-DA-DA-DA.mp3",
+		"download": "2018-21-pretty-much-everything/2018-09-02-do-do-do-do-do-DA-DA-DA.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2018-09-05-from-madrid-maybe": {
+		"name": "2018 09 05 from madrid maybe",
+		"alpha": "2018-09-05-from-madrid-maybe",
+		"tags": [
+			"Loose",
+			"Anxious"
+		],
+		"length": "1:24",
+		"length-sorting": 84,
+		"bpm": 120,
+		"date": "Sep 5 2018",
+		"date-sorting": 180905,
+		"file": "2018-21-pretty-much-everything/2018-09-05-from-madrid-maybe.mp3",
+		"download": "2018-21-pretty-much-everything/2018-09-05-from-madrid-maybe.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2018-09-05-wowzers": {
+		"name": "2018 09 05 wowzers",
+		"alpha": "2018-09-05-wowzers",
+		"tags": [
+			"Atmospheric"
+		],
+		"length": "0:30",
+		"length-sorting": 30,
+		"bpm": 135,
+		"date": "Sep 5 2018",
+		"date-sorting": 180905,
+		"file": "2018-21-pretty-much-everything/2018-09-05-wowzers.mp3",
+		"download": "2018-21-pretty-much-everything/2018-09-05-wowzers.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2018-09-16-how-to-start": {
+		"name": "2018 09 16 how to start",
+		"alpha": "2018-09-16-how-to-start",
+		"tags": [
+			"Atmospheric",
+			"Gentle",
+			"Pensive"
+		],
+		"length": "0:59",
+		"length-sorting": 59,
+		"bpm": 146,
+		"date": "Sep 16 2018",
+		"date-sorting": 180916,
+		"file": "2018-21-pretty-much-everything/2018-09-16-how-to-start.mp3",
+		"download": "2018-21-pretty-much-everything/2018-09-16-how-to-start.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2018-10-29-plug-it-in": {
+		"name": "2018 10 29 plug it in",
+		"alpha": "2018-10-29-plug-it-in",
+		"tags": [
+			"Ambient",
+			"Rock",
+			"Rhythmic"
+		],
+		"length": "0:23",
+		"length-sorting": 23,
+		"bpm": 100,
+		"date": "Oct 29 2018",
+		"date-sorting": 181029,
+		"file": "2018-21-pretty-much-everything/2018-10-29-plug-it-in.mp3",
+		"download": "2018-21-pretty-much-everything/2018-10-29-plug-it-in.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2018-12-30-mouthsong": {
+		"name": "2018 12 30 mouthsong",
+		"alpha": "2018-12-30-mouthsong",
+		"tags": [
+			"Rhythmic",
+			"Rock"
+		],
+		"length": "0:32",
+		"length-sorting": 32,
+		"bpm": 105,
+		"date": "Dec 30 2018",
+		"date-sorting": 181230,
+		"file": "2018-21-pretty-much-everything/2018-12-30-mouthsong.mp3",
+		"download": "2018-21-pretty-much-everything/2018-12-30-mouthsong.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2019-07-13-about": {
+		"name": "2019 07 13 about",
+		"alpha": "2019-07-13-about",
+		"tags": [
+			"Ambient",
+			"Gloomy",
+			"Anxious",
+			"Pensive"
+		],
+		"length": "1:36",
+		"length-sorting": 96,
+		"bpm": 140,
+		"date": "Jul 13 2019",
+		"date-sorting": 190713,
+		"file": "2018-21-pretty-much-everything/2019-07-13-about.mp3",
+		"download": "2018-21-pretty-much-everything/2019-07-13-about.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2020-04-08-save-once": {
+		"name": "2020 04 08 save once",
+		"alpha": "2020-04-08-save-once",
+		"tags": [
+			"Ambient",
+			"Orchestral",
+			"Cheerful"
+		],
+		"length": "3:40",
+		"length-sorting": 220,
+		"bpm": 115,
+		"date": "Apr 08 2020",
+		"date-sorting": 200408,
+		"file": "2018-21-pretty-much-everything/2020-04-08-save-once.mp3",
+		"download": "2018-21-pretty-much-everything/2020-04-08-save-once.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2020-05-04-from-phone": {
+		"name": "2020 05 04 from phone",
+		"alpha": "2020-05-04-from-phone",
+		"tags": [
+			"Ambient",
+			"Pensive"
+		],
+		"length": "1:20",
+		"length-sorting": 80,
+		"bpm": 140,
+		"date": "May 04 2020",
+		"date-sorting": 200504,
+		"file": "2018-21-pretty-much-everything/2020-05-04-from-phone.mp3",
+		"download": "2018-21-pretty-much-everything/2020-05-04-from-phone.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2020-06-01-tiny-little-feet-walking-in-foggy-woods-and-everything-is-bluish-green": {
+		"name": "2020 06 01 tiny little feet walking in foggy woods and everything is bluish green",
+		"alpha": "2020-06-01-tiny-little-feet-walking-in-foggy-woods-and-everything-is-bluish green",
+		"tags": [
+			"Ambient",
+			"Hopeful",
+			"Orchestral"
+		],
+		"length": "1:05",
+		"length-sorting": 65,
+		"bpm": 88,
+		"date": "Jun 01 2020",
+		"date-sorting": 200601,
+		"file": "2018-21-pretty-much-everything/2020-06-01-tiny-little-feet-walking-in-foggy-woods-and-everything-is-bluish-green.mp3",
+		"download": "2018-21-pretty-much-everything/2020-06-01-tiny-little-feet-walking-in-foggy-woods-and-everything-is-bluish-green.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2020-06-16-marching-through-the-kitchen": {
+		"name": "2020 06 16 marching through the kitchen",
+		"alpha": "2020-06-16-marching-through-the-kitchen",
+		"tags": [
+			"Ambient",
+			"Loose",
+			"Rhythmic",
+			"Gloomy"
+		],
+		"length": "1:30",
+		"length-sorting": 90,
+		"bpm": 120,
+		"date": "Jun 16 2020",
+		"date-sorting": 200616,
+		"file": "2018-21-pretty-much-everything/2020-06-16-marching-through-the-kitchen.mp3",
+		"download": "2018-21-pretty-much-everything/2020-06-16-marching-through-the-kitchen.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2020-08-05-i-dont-wanna-be-violent": {
+		"name": "2020 08 05 i dont wanna be violent",
+		"alpha": "2020-08-05-i-dont-wanna-be-violent",
+		"tags": [
+			"Intense",
+			"Ambient",
+			"Anxious",
+			"Rhythmic"
+		],
+		"length": "1:45",
+		"length-sorting": 105,
+		"bpm": 120,
+		"date": "Aug 5 2020",
+		"date-sorting": 200805,
+		"file": "2018-21-pretty-much-everything/2020-08-05-i-dont-wanna-be-violent.mp3",
+		"download": "2018-21-pretty-much-everything/2020-08-05-i-dont-wanna-be-violent.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2020-09-15-uh-huh": {
+		"name": "2020 09 15 uh huh",
+		"alpha": "2020-09-15-uh-huh",
+		"tags": [
+			"Rock"
+		],
+		"length": "1:45",
+		"length-sorting": 105,
+		"bpm": 102,
+		"date": "Sep 15 2020",
+		"date-sorting": 200915,
+		"file": "2018-21-pretty-much-everything/2020-09-15-uh-huh.mp3",
+		"download": "2018-21-pretty-much-everything/2020-09-15-uh-huh.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2020-10-22-that-country": {
+		"name": "2020 10 22 that country",
+		"alpha": "2020-10-22-that-country",
+		"tags": [
+			"Folksy",
+			"Loose"
+		],
+		"length": "3:14",
+		"length-sorting": 194,
+		"bpm": 110,
+		"date": "Oct 22 2020",
+		"date-sorting": 201022,
+		"file": "2018-21-pretty-much-everything/2020-10-22-that-country.mp3",
+		"download": "2018-21-pretty-much-everything/2020-10-22-that-country.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2021-01-03-dadunsch": {
+		"name": "2021 01 03 dadunsch",
+		"alpha": "2021-01-03-dadunsch",
+		"tags": [
+			"Ambient",
+			"Pensive",
+			"Folksy"
+		],
+		"length": "1:41",
+		"length-sorting": 101,
+		"bpm": 132,
+		"date": "Jan 3 2021",
+		"date-sorting": 210103,
+		"file": "2018-21-pretty-much-everything/2021-01-03-dadunsch.mp3",
+		"download": "2018-21-pretty-much-everything/2021-01-03-dadunsch.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2021-03-26-got-things-to-do": {
+		"name": "2021 03 26 got things to do",
+		"alpha": "2021-03-26-got-things-to-do",
+		"tags": [
+			"Orchestral",
+			"Rhythmic"
+		],
+		"length": "1:00",
+		"length-sorting": 60,
+		"bpm": 120,
+		"date": "Mar 26 2021",
+		"date-sorting": 210326,
+		"file": "2018-21-pretty-much-everything/2021-03-26-got-things-to-do.mp3",
+		"download": "2018-21-pretty-much-everything/2021-03-26-got-things-to-do.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2021-03-26-oh-boy-here-he-comes": {
+		"name": "2021 03 26 oh boy here he comes",
+		"alpha": "2021-03-26-oh-boy-here-he-comes",
+		"tags": [
+			"Ambient",
+			"Cheerful"
+		],
+		"length": "1:20",
+		"length-sorting": 80,
+		"bpm": 143,
+		"date": "Mar 26 2021",
+		"date-sorting": 210326,
+		"file": "2018-21-pretty-much-everything/2021-03-26-oh-boy-here-he-comes.mp3",
+		"download": "2018-21-pretty-much-everything/2021-03-26-oh-boy-here-he-comes.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2021-04-19-dogs": {
+		"name": "2021 04 19 dogs",
+		"alpha": "2021-04-19-dogs",
+		"tags": [
+			"Intense"
+		],
+		"length": "0:42",
+		"length-sorting": 42,
+		"bpm": 140,
+		"date": "Apr 19 2021",
+		"date-sorting": 210419,
+		"file": "2018-21-pretty-much-everything/2021-04-19-dogs.mp3",
+		"download": "2018-21-pretty-much-everything/2021-04-19-dogs.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	},
+	"2021-05-11-alright": {
+		"name": "2021 05 11 alright",
+		"alpha": "2021-05-11-alright",
+		"tags": [
+			"Electronic",
+			"Rhythmic"
+		],
+		"length": "0:36",
+		"length-sorting": 36,
+		"bpm": 80,
+		"date": "May 11 2021",
+		"date-sorting": 210511,
+		"file": "2018-21-pretty-much-everything/2021-05-11-alright.mp3",
+		"download": "2018-21-pretty-much-everything/2021-05-11-alright.mp3",
+		"desc": "From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a>"
+	}
+}

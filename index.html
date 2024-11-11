@@ -1,13 +1,1254 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>BGM</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	Coming soon!
-	<script src="script.js"></script>
-</body>
-</html>
+
+		<!DOCTYPE html>
+		<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>BGM</title>
+		
+			<meta name="author" content="Gabriel Drozdov">
+			<meta name="keywords" content="HTML, CSS, JavaScript, Music, Songs, Creative Coding, Typography, Royalty-free">
+			<meta name="description" content="Royalty-free songs for non-existent video games.">
+			<meta property="og:url" content="https://bgm.barcoloudly.com/">
+			<meta name="og:title" property="og:title" content="BGM">
+			<meta property="og:description" content="Royalty-free songs for non-existent video games.">
+			<meta property="og:image" content="./assets/meta/opengraph.png">
+			<link rel="icon" type="image/png" href="assets/meta/favicon.png" />
+		
+			<link rel="stylesheet" href="/style.css">
+		</head>
+		<body data-info="false">
+		
+			<nav class="nav">
+				<header class="header">
+					<a class="header-marquee" href="https://barcoloudly.com/" target="_blank">
+						<h1>Barco Loudly → BGM →&nbsp;</h1>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+						<div>Barco Loudly → BGM →&nbsp;</div>
+					</a>
+					<button class="header-info" onclick="toggleInfo();">Licensing Information</button>
+				</header>
+		
+				<div class="controls">
+					<div class="controls-section">
+						<div class="controls-section-label">Search</div>
+						<input type="search" class="controls-search" placeholder="Type here!" oninput="searchMusic(this.value);">
+					</div>
+		
+					<div class="controls-divider"></div>
+		
+					<div class="controls-section">
+						<div class="controls-section-label">Filters</div>
+						<ul class="controls-tags">
+							<li id="filter-Ambient" onclick="toggleFilter('Ambient');">Ambient</li><li id="filter-Anxious" onclick="toggleFilter('Anxious');">Anxious</li><li id="filter-Atmospheric" onclick="toggleFilter('Atmospheric');">Atmospheric</li><li id="filter-Calm" onclick="toggleFilter('Calm');">Calm</li><li id="filter-Cheerful" onclick="toggleFilter('Cheerful');">Cheerful</li><li id="filter-Electronic" onclick="toggleFilter('Electronic');">Electronic</li><li id="filter-Folksy" onclick="toggleFilter('Folksy');">Folksy</li><li id="filter-Gentle" onclick="toggleFilter('Gentle');">Gentle</li><li id="filter-Gloomy" onclick="toggleFilter('Gloomy');">Gloomy</li><li id="filter-Hopeful" onclick="toggleFilter('Hopeful');">Hopeful</li><li id="filter-Intense" onclick="toggleFilter('Intense');">Intense</li><li id="filter-Jazzy" onclick="toggleFilter('Jazzy');">Jazzy</li><li id="filter-Loose" onclick="toggleFilter('Loose');">Loose</li><li id="filter-Orchestral" onclick="toggleFilter('Orchestral');">Orchestral</li><li id="filter-Pensive" onclick="toggleFilter('Pensive');">Pensive</li><li id="filter-Rhythmic" onclick="toggleFilter('Rhythmic');">Rhythmic</li><li id="filter-Rock" onclick="toggleFilter('Rock');">Rock</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="sorting">
+					<div class="sorting-label">Sort</div>
+					<button class="sorting-tab" id="sorting-name" data-state="0" onclick="setSorting('name');">
+						<span>Name</span>
+						<svg width="80" height="60" viewBox="0 0 80 60"><polygon points="80 0 0 0 40.572 60 80 0"/></svg>
+					</button>
+					<button class="sorting-tab" id="sorting-length" data-state="0" onclick="setSorting('length');">
+						<span>Length</span>
+						<svg width="80" height="60" viewBox="0 0 80 60"><polygon points="80 0 0 0 40.572 60 80 0"/></svg>
+					</button>
+					<button class="sorting-tab" id="sorting-bpm" data-state="0" onclick="setSorting('bpm');">
+						<span>BPM</span>
+						<svg width="80" height="60" viewBox="0 0 80 60"><polygon points="80 0 0 0 40.572 60 80 0"/></svg>
+					</button>
+					<button class="sorting-tab" id="sorting-date" data-state="1" onclick="setSorting('date');">
+						<span>Date</span>
+						<svg width="80" height="60" viewBox="0 0 80 60"><polygon points="80 0 0 0 40.572 60 80 0"/></svg>
+					</button>
+				</div>
+			</nav>
+		
+			<main class="music">
+				
+			<button class="song" onclick="playSong('2021-05-11-alright');" data-song="2021-05-11-alright" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2021 05 11 alright</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Electronic</li><li>Rhythmic</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">0:36</div>
+				<div class="song-bpm">80</div>
+				<div class="song-date">May 11 2021</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2021-04-19-dogs');" data-song="2021-04-19-dogs" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2021 04 19 dogs</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Intense</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">0:42</div>
+				<div class="song-bpm">140</div>
+				<div class="song-date">Apr 19 2021</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2021-03-26-got-things-to-do');" data-song="2021-03-26-got-things-to-do" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2021 03 26 got things to do</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Orchestral</li><li>Rhythmic</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:00</div>
+				<div class="song-bpm">120</div>
+				<div class="song-date">Mar 26 2021</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2021-03-26-oh-boy-here-he-comes');" data-song="2021-03-26-oh-boy-here-he-comes" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2021 03 26 oh boy here he comes</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Ambient</li><li>Cheerful</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:20</div>
+				<div class="song-bpm">143</div>
+				<div class="song-date">Mar 26 2021</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2021-01-03-dadunsch');" data-song="2021-01-03-dadunsch" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2021 01 03 dadunsch</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Ambient</li><li>Pensive</li><li>Folksy</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:41</div>
+				<div class="song-bpm">132</div>
+				<div class="song-date">Jan 3 2021</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2020-10-22-that-country');" data-song="2020-10-22-that-country" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2020 10 22 that country</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Folksy</li><li>Loose</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">3:14</div>
+				<div class="song-bpm">110</div>
+				<div class="song-date">Oct 22 2020</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2020-09-15-uh-huh');" data-song="2020-09-15-uh-huh" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2020 09 15 uh huh</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Rock</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:45</div>
+				<div class="song-bpm">102</div>
+				<div class="song-date">Sep 15 2020</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2020-08-05-i-dont-wanna-be-violent');" data-song="2020-08-05-i-dont-wanna-be-violent" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2020 08 05 i dont wanna be violent</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Intense</li><li>Ambient</li><li>Anxious</li><li>Rhythmic</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:45</div>
+				<div class="song-bpm">120</div>
+				<div class="song-date">Aug 5 2020</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2020-06-16-marching-through-the-kitchen');" data-song="2020-06-16-marching-through-the-kitchen" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2020 06 16 marching through the kitchen</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Ambient</li><li>Loose</li><li>Rhythmic</li><li>Gloomy</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:30</div>
+				<div class="song-bpm">120</div>
+				<div class="song-date">Jun 16 2020</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2020-06-01-tiny-little-feet-walking-in-foggy-woods-and-everything-is-bluish-green');" data-song="2020-06-01-tiny-little-feet-walking-in-foggy-woods-and-everything-is-bluish-green" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2020 06 01 tiny little feet walking in foggy woods and everything is bluish green</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Ambient</li><li>Hopeful</li><li>Orchestral</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:05</div>
+				<div class="song-bpm">88</div>
+				<div class="song-date">Jun 01 2020</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2020-05-04-from-phone');" data-song="2020-05-04-from-phone" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2020 05 04 from phone</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Ambient</li><li>Pensive</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:20</div>
+				<div class="song-bpm">140</div>
+				<div class="song-date">May 04 2020</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2020-04-08-save-once');" data-song="2020-04-08-save-once" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2020 04 08 save once</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Ambient</li><li>Orchestral</li><li>Cheerful</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">3:40</div>
+				<div class="song-bpm">115</div>
+				<div class="song-date">Apr 08 2020</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2019-07-13-about');" data-song="2019-07-13-about" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2019 07 13 about</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Ambient</li><li>Gloomy</li><li>Anxious</li><li>Pensive</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:36</div>
+				<div class="song-bpm">140</div>
+				<div class="song-date">Jul 13 2019</div>
+			</button>
+		
+			<button class="song" onclick="playSong('walking');" data-song="walking" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Walking</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Electronic</li><li>Gloomy</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/karaoke-superstar' target='_blank'>Karaoke Superstar</a></div>
+					</div>
+				</div>
+				<div class="song-length">3:20</div>
+				<div class="song-bpm">60</div>
+				<div class="song-date">May 10 2019</div>
+			</button>
+		
+			<button class="song" onclick="playSong('watching');" data-song="watching" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Watching</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Electronic</li><li>Rhythmic</li><li>Anxious</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/karaoke-superstar' target='_blank'>Karaoke Superstar</a></div>
+					</div>
+				</div>
+				<div class="song-length">0:29</div>
+				<div class="song-bpm">140</div>
+				<div class="song-date">May 10 2019</div>
+			</button>
+		
+			<button class="song" onclick="playSong('biking');" data-song="biking" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Biking</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Electronic</li><li>Hopeful</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/karaoke-superstar' target='_blank'>Karaoke Superstar</a></div>
+					</div>
+				</div>
+				<div class="song-length">0:56</div>
+				<div class="song-bpm">95</div>
+				<div class="song-date">May 10 2019</div>
+			</button>
+		
+			<button class="song" onclick="playSong('shopping');" data-song="shopping" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Shopping</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Electronic</li><li>Intense</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/karaoke-superstar' target='_blank'>Karaoke Superstar</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:26</div>
+				<div class="song-bpm">190</div>
+				<div class="song-date">May 10 2019</div>
+			</button>
+		
+			<button class="song" onclick="playSong('feeling-a-little-better-today');" data-song="feeling-a-little-better-today" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Feeling (A Little) Better Today</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Ambient</li><li>Orchestral</li><li>Pensive</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/eurydice' target='_blank'>Eurydice</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:06</div>
+				<div class="song-bpm">135</div>
+				<div class="song-date">Apr 12 2019</div>
+			</button>
+		
+			<button class="song" onclick="playSong('waterworks');" data-song="waterworks" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Waterworks</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Orchestral</li><li>Rock</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/eurydice' target='_blank'>Eurydice</a></div>
+					</div>
+				</div>
+				<div class="song-length">2:03</div>
+				<div class="song-bpm">122</div>
+				<div class="song-date">Apr 12 2019</div>
+			</button>
+		
+			<button class="song" onclick="playSong('chamber-music');" data-song="chamber-music" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Chamber Music</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Ambient</li><li>Orchestral</li><li>Gloomy</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/eurydice' target='_blank'>Eurydice</a></div>
+					</div>
+				</div>
+				<div class="song-length">3:27</div>
+				<div class="song-bpm">100</div>
+				<div class="song-date">Apr 12 2019</div>
+			</button>
+		
+			<button class="song" onclick="playSong('little-steps');" data-song="little-steps" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Little Steps</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Ambient</li><li>Orchestral</li><li>Hopeful</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/eurydice' target='_blank'>Eurydice</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:14</div>
+				<div class="song-bpm">133</div>
+				<div class="song-date">Apr 12 2019</div>
+			</button>
+		
+			<button class="song" onclick="playSong('walk-in');" data-song="walk-in" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Walk In</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Ambient</li><li>Orchestral</li><li>Hopeful</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/eurydice' target='_blank'>Eurydice</a></div>
+					</div>
+				</div>
+				<div class="song-length">3:27</div>
+				<div class="song-bpm">80</div>
+				<div class="song-date">Apr 12 2019</div>
+			</button>
+		
+			<button class="song" onclick="playSong('descent');" data-song="descent" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Descent</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Orchestral</li><li>Atmospheric</li><li>Gloomy</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/eurydice' target='_blank'>Eurydice</a></div>
+					</div>
+				</div>
+				<div class="song-length">0:53</div>
+				<div class="song-bpm">N/A</div>
+				<div class="song-date">Apr 12 2019</div>
+			</button>
+		
+			<button class="song" onclick="playSong('lou');" data-song="lou" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Lou</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Orchestral</li><li>Jazzy</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/eurydice' target='_blank'>Eurydice</a></div>
+					</div>
+				</div>
+				<div class="song-length">2:24</div>
+				<div class="song-bpm">160</div>
+				<div class="song-date">Apr 12 2019</div>
+			</button>
+		
+			<button class="song" onclick="playSong('walk-out');" data-song="walk-out" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Walk Out</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Orchestral</li><li>Ambient</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/eurydice' target='_blank'>Eurydice</a></div>
+					</div>
+				</div>
+				<div class="song-length">3:41</div>
+				<div class="song-bpm">140</div>
+				<div class="song-date">Apr 12 2019</div>
+			</button>
+		
+			<button class="song" onclick="playSong('vanishing');" data-song="vanishing" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Vanishing</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Orchestral</li><li>Pensive</li><li>Calm</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/eurydice' target='_blank'>Eurydice</a></div>
+					</div>
+				</div>
+				<div class="song-length">0:37</div>
+				<div class="song-bpm">79</div>
+				<div class="song-date">Apr 12 2019</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2018-12-30-mouthsong');" data-song="2018-12-30-mouthsong" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2018 12 30 mouthsong</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Rhythmic</li><li>Rock</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">0:32</div>
+				<div class="song-bpm">105</div>
+				<div class="song-date">Dec 30 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2018-10-29-plug-it-in');" data-song="2018-10-29-plug-it-in" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2018 10 29 plug it in</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Ambient</li><li>Rock</li><li>Rhythmic</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">0:23</div>
+				<div class="song-bpm">100</div>
+				<div class="song-date">Oct 29 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2018-09-16-how-to-start');" data-song="2018-09-16-how-to-start" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2018 09 16 how to start</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Atmospheric</li><li>Gentle</li><li>Pensive</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">0:59</div>
+				<div class="song-bpm">146</div>
+				<div class="song-date">Sep 16 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2018-09-05-from-madrid-maybe');" data-song="2018-09-05-from-madrid-maybe" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2018 09 05 from madrid maybe</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Loose</li><li>Anxious</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:24</div>
+				<div class="song-bpm">120</div>
+				<div class="song-date">Sep 5 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2018-09-05-wowzers');" data-song="2018-09-05-wowzers" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2018 09 05 wowzers</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Atmospheric</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">0:30</div>
+				<div class="song-bpm">135</div>
+				<div class="song-date">Sep 5 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2018-09-02-do-do-do-do-do-DA-DA-DA');" data-song="2018-09-02-do-do-do-do-do-DA-DA-DA" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2018 09 02 do do do do do DA DA DA</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Ambient</li><li>Intense</li><li>Electronic</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">0:47</div>
+				<div class="song-bpm">120</div>
+				<div class="song-date">Sep 2 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2018-08-21-sword');" data-song="2018-08-21-sword" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2018 08 21 sword</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Calm</li><li>Gentle</li><li>Rock</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">2:44</div>
+				<div class="song-bpm">90</div>
+				<div class="song-date">Aug 21 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2018-08-01-bumbum');" data-song="2018-08-01-bumbum" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2018 08 01 bumbum</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Rock</li><li>Electronic</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">0:50</div>
+				<div class="song-bpm">120</div>
+				<div class="song-date">Aug 1 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2018-07-12-test2');" data-song="2018-07-12-test2" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2018 07 12 test2</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Atmospheric</li><li>Ambient</li><li>Calm</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:53</div>
+				<div class="song-bpm">90</div>
+				<div class="song-date">Jul 12 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2018-07-05-beat1');" data-song="2018-07-05-beat1" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2018 07 05 beat1</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Ambient</li><li>Rhythmic</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:21</div>
+				<div class="song-bpm">120</div>
+				<div class="song-date">Jul 5 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('2018-07-05-dance-beat');" data-song="2018-07-05-dance-beat" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">2018 07 05 dance beat</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Ambient</li><li>Rhythmic</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/2018-21-pretty-much-everything' target='_blank'>2018–21 pretty much everything</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:15</div>
+				<div class="song-bpm">100</div>
+				<div class="song-date">Jul 5 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('one-or-two-or-two-or-one');" data-song="one-or-two-or-two-or-one" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">One or Two or Two or One</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Jazzy</li><li>Anxious</li><li>Rhythmic</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:35</div>
+				<div class="song-bpm">100</div>
+				<div class="song-date">May 3 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('syll-o-gism');" data-song="syll-o-gism" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Syll-O-Gism</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Jazzy</li><li>Pensive</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a></div>
+					</div>
+				</div>
+				<div class="song-length">3:17</div>
+				<div class="song-bpm">100</div>
+				<div class="song-date">May 3 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('steps-and-stomps');" data-song="steps-and-stomps" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Steps and Stomps</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Orchestral</li><li>Gentle</li><li>Pensive</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:30</div>
+				<div class="song-bpm">75</div>
+				<div class="song-date">May 3 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('uh-oh-rhino');" data-song="uh-oh-rhino" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Uh Oh Rhino</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Orchestral</li><li>Cheerful</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:37</div>
+				<div class="song-bpm">180</div>
+				<div class="song-date">May 3 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('rhino-rhythm');" data-song="rhino-rhythm" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Rhino Rhythm</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Rhythmic</li><li>Intense</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a></div>
+					</div>
+				</div>
+				<div class="song-length">2:27</div>
+				<div class="song-bpm">80</div>
+				<div class="song-date">May 3 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('rhino-melody');" data-song="rhino-melody" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Rhino Melody</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Atmospheric</li><li>Ambient</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a></div>
+					</div>
+				</div>
+				<div class="song-length">2:39</div>
+				<div class="song-bpm">N/A</div>
+				<div class="song-date">May 3 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('radio-oh-oh');" data-song="radio-oh-oh" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Radio Oh Oh</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Jazzy</li><li>Calm</li><li>Loose</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a></div>
+					</div>
+				</div>
+				<div class="song-length">4:10</div>
+				<div class="song-bpm">120</div>
+				<div class="song-date">May 3 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('postshow-take-it-slow');" data-song="postshow-take-it-slow" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Postshow Take It Slow</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Ambient</li><li>Jazzy</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a></div>
+					</div>
+				</div>
+				<div class="song-length">2:40</div>
+				<div class="song-bpm">120</div>
+				<div class="song-date">May 3 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('do-rhinos-dream-of-stomping-feet');" data-song="do-rhinos-dream-of-stomping-feet" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Do Rhinos Dream of Stomping Feet</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Intense</li><li>Anxious</li><li>Rhythmic</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a></div>
+					</div>
+				</div>
+				<div class="song-length">0:46</div>
+				<div class="song-bpm">N/A</div>
+				<div class="song-date">May 3 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('feline-funeral');" data-song="feline-funeral" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Feline Funeral</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Orchestral</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:07</div>
+				<div class="song-bpm">180</div>
+				<div class="song-date">May 3 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('preshow-stomp-and-go');" data-song="preshow-stomp-and-go" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Preshow Stomp and Go</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Orchestral</li><li>Intense</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:16</div>
+				<div class="song-bpm">64</div>
+				<div class="song-date">May 3 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('stampede');" data-song="stampede" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Stampede</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Atmospheric</li><li>Intense</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/rhinoceros' target='_blank'>Rhinoceros</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:06</div>
+				<div class="song-bpm">N/A</div>
+				<div class="song-date">May 3 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('trills');" data-song="trills" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Trills</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Anxious</li><li>Intense</li><li>Atmospheric</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/99-histories' target='_blank'>99 Histories</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:06</div>
+				<div class="song-bpm">N/A</div>
+				<div class="song-date">Feb 28 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('to-whom-it-may-concern');" data-song="to-whom-it-may-concern" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">To Whom It May Concern</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Cheerful</li><li>Gentle</li><li>Orchestral</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/99-histories' target='_blank'>99 Histories</a></div>
+					</div>
+				</div>
+				<div class="song-length">3:20</div>
+				<div class="song-bpm">123</div>
+				<div class="song-date">Feb 28 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('roundabouts');" data-song="roundabouts" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Roundabouts</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Atmospheric</li><li>Pensive</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/99-histories' target='_blank'>99 Histories</a></div>
+					</div>
+				</div>
+				<div class="song-length">0:46</div>
+				<div class="song-bpm">N/A</div>
+				<div class="song-date">Feb 28 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('overtones');" data-song="overtones" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Overtones</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Atmospheric</li><li>Anxious</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/99-histories' target='_blank'>99 Histories</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:22</div>
+				<div class="song-bpm">N/A</div>
+				<div class="song-date">Feb 28 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('week-two');" data-song="week-two" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Week Two</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Hopeful</li><li>Calm</li><li>Orchestral</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/99-histories' target='_blank'>99 Histories</a></div>
+					</div>
+				</div>
+				<div class="song-length">2:09</div>
+				<div class="song-bpm">85</div>
+				<div class="song-date">Feb 28 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('the-rocking-horse-winner');" data-song="the-rocking-horse-winner" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">The Rocking Horse Winner</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Hopeful</li><li>Calm</li><li>Orchestral</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/99-histories' target='_blank'>99 Histories</a></div>
+					</div>
+				</div>
+				<div class="song-length">3:33</div>
+				<div class="song-bpm">90</div>
+				<div class="song-date">Feb 28 2018</div>
+			</button>
+		
+			<button class="song" onclick="playSong('tomato');" data-song="tomato" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Tomato</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Rock</li><li>Anxious</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/moonbug' target='_blank'>Moonbug</a></div>
+					</div>
+				</div>
+				<div class="song-length">2:37</div>
+				<div class="song-bpm">90</div>
+				<div class="song-date">Jul 23 2017</div>
+			</button>
+		
+			<button class="song" onclick="playSong('region');" data-song="region" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Region</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Atmospheric</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/moonbug' target='_blank'>Moonbug</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:33</div>
+				<div class="song-bpm">N/A</div>
+				<div class="song-date">Jul 23 2017</div>
+			</button>
+		
+			<button class="song" onclick="playSong('nice');" data-song="nice" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Nice</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Ambient</li><li>Calm</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/moonbug' target='_blank'>Moonbug</a></div>
+					</div>
+				</div>
+				<div class="song-length">2:37</div>
+				<div class="song-bpm">130</div>
+				<div class="song-date">Jul 23 2017</div>
+			</button>
+		
+			<button class="song" onclick="playSong('etc');" data-song="etc" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Etc</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Rock</li><li>Ambient</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/moonbug' target='_blank'>Moonbug</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:58</div>
+				<div class="song-bpm">105</div>
+				<div class="song-date">Jul 23 2017</div>
+			</button>
+		
+			<button class="song" onclick="playSong('not-by-my-hand');" data-song="not-by-my-hand" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Not By My Hand</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Jazzy</li><li>Orchestral</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/something-happens' target='_blank'>Something Happens</a></div>
+					</div>
+				</div>
+				<div class="song-length">9:00</div>
+				<div class="song-bpm">N/A</div>
+				<div class="song-date">Dec 18 2014</div>
+			</button>
+		
+			<button class="song" onclick="playSong('end-of-the-night');" data-song="end-of-the-night" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">End of the Night</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Jazzy</li><li>Orchestral</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/something-happens' target='_blank'>Something Happens</a></div>
+					</div>
+				</div>
+				<div class="song-length">3:03</div>
+				<div class="song-bpm">122</div>
+				<div class="song-date">Dec 18 2014</div>
+			</button>
+		
+			<button class="song" onclick="playSong('the-party');" data-song="the-party" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">The Party</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Jazzy</li><li>Orchestral</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/something-happens' target='_blank'>Something Happens</a></div>
+					</div>
+				</div>
+				<div class="song-length">4:15</div>
+				<div class="song-bpm">N/A</div>
+				<div class="song-date">Dec 18 2014</div>
+			</button>
+		
+			<button class="song" onclick="playSong('molloy-and-malone');" data-song="molloy-and-malone" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Molloy and Malone</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Jazzy</li><li>Orchestral</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/something-happens' target='_blank'>Something Happens</a></div>
+					</div>
+				</div>
+				<div class="song-length">6:56</div>
+				<div class="song-bpm">N/A</div>
+				<div class="song-date">Dec 18 2014</div>
+			</button>
+		
+			<button class="song" onclick="playSong('travellers-song');" data-song="travellers-song" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Traveller’s Song</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Jazzy</li><li>Orchestral</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/something-happens' target='_blank'>Something Happens</a></div>
+					</div>
+				</div>
+				<div class="song-length">2:37</div>
+				<div class="song-bpm">126</div>
+				<div class="song-date">Dec 18 2014</div>
+			</button>
+		
+			<button class="song" onclick="playSong('come-into-the-room');" data-song="come-into-the-room" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Come Into The Room</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Jazzy</li><li>Orchestral</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/something-happens' target='_blank'>Something Happens</a></div>
+					</div>
+				</div>
+				<div class="song-length">3:32</div>
+				<div class="song-bpm">56</div>
+				<div class="song-date">Dec 18 2014</div>
+			</button>
+		
+			<button class="song" onclick="playSong('main-theme');" data-song="main-theme" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Main Theme</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Jazzy</li><li>Orchestral</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/something-happens' target='_blank'>Something Happens</a></div>
+					</div>
+				</div>
+				<div class="song-length">2:32</div>
+				<div class="song-bpm">117</div>
+				<div class="song-date">Dec 18 2014</div>
+			</button>
+		
+			<button class="song" onclick="playSong('empty-bowl');" data-song="empty-bowl" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Empty Bowl</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Rhythmic</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/granola' target='_blank'>Granola</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:12</div>
+				<div class="song-bpm">N/A</div>
+				<div class="song-date">Aug 8 2014</div>
+			</button>
+		
+			<button class="song" onclick="playSong('in-dublin');" data-song="in-dublin" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">In Dublin</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Ambient</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/granola' target='_blank'>Granola</a></div>
+					</div>
+				</div>
+				<div class="song-length">1:12</div>
+				<div class="song-bpm">75</div>
+				<div class="song-date">Aug 8 2014</div>
+			</button>
+		
+			<button class="song" onclick="playSong('dirk-diggler');" data-song="dirk-diggler" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Dirk Diggler</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Loose</li><li>Jazzy</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/granola' target='_blank'>Granola</a></div>
+					</div>
+				</div>
+				<div class="song-length">0:16</div>
+				<div class="song-bpm">133</div>
+				<div class="song-date">Aug 8 2014</div>
+			</button>
+		
+			<button class="song" onclick="playSong('jen-gender');" data-song="jen-gender" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Jen Gender</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Pensive</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/granola' target='_blank'>Granola</a></div>
+					</div>
+				</div>
+				<div class="song-length">0:47</div>
+				<div class="song-bpm">121</div>
+				<div class="song-date">Aug 8 2014</div>
+			</button>
+		
+			<button class="song" onclick="playSong('bouillabaisse');" data-song="bouillabaisse" data-filter="0" data-search="0">
+				<div class="song-info">
+					<h3 class="song-name">Bouillabaisse</h3>
+					<div class="song-info-subsection">
+						<ul class="song-tags">
+							<li>Rhythmic</li><li>Rock</li>
+						</ul>
+						<div class="song-desc">From <a href='https://gabrieldrozdov.bandcamp.com/album/granola' target='_blank'>Granola</a></div>
+					</div>
+				</div>
+				<div class="song-length">2:12</div>
+				<div class="song-bpm">140</div>
+				<div class="song-date">Aug 8 2014</div>
+			</button>
+		
+			</main>
+			
+			<div class="player" data-active="0">
+		
+				<div class="player-song">
+					<span class="player-song-label">Now Playing</span> <span class="player-song-title">Nothing Playing</span>
+					<div class="player-song-total"><span>Showing <span class="player-song-current">71</span>/71 songs</span></div>
+				</div>
+		
+				<div class="player-controls">
+		
+					<div class="player-section">
+						<button class="player-button" id="player-back" onclick="skipBackwards();">
+							<svg viewBox="0 0 24 24"><path d="M12,.2c-3,0-5.7,1.1-7.9,3.1L1.4.6.1,9.2l8.7-1.1-2.7-2.7c1.6-1.4,3.7-2.2,5.9-2.2,4.9,0,8.8,4,8.8,8.8s-4,8.8-8.8,8.8-6.3-1.8-7.9-4.8l-.3-.5-2.5,1.5.2.4c2,3.9,6,6.3,10.4,6.3,6.5,0,11.8-5.3,11.8-11.8S18.5.2,12,.2Z"/><path d="M8.5,9.1v.2c0,0,0,.2,0,.3,0,0-.1.2-.3.3-.1,0-.2.1-.4.2-.2,0-.3,0-.5,0h-.3s0,1.9,0,1.9h.3c.3,0,.6,0,.8-.1.1,0,.3-.1.4-.2v3.2s2,0,2,0v-5.9h-2ZM8.8,10.9h0s0,0,0,0c0,0,0,0,0,0Z"/><path d="M12.9,14.6c.4.3.9.4,1.4.4s1-.1,1.4-.4c.4-.3.7-.6.9-1.1.2-.5.3-1,.3-1.6s-.1-1.1-.3-1.6c-.2-.5-.5-.8-.9-1.1-.8-.5-2-.5-2.8,0-.4.3-.7.6-.9,1.1-.2.5-.3,1-.3,1.6s.1,1.1.3,1.6c.2.5.5.8.9,1.1ZM13.7,12.7c0-.2,0-.4,0-.7s0-.5,0-.7c0-.2.1-.3.2-.4,0,0,.2-.1.3-.1s.3,0,.3.1c.1,0,.2.2.2.4,0,.2,0,.4,0,.7s0,.5,0,.7c0,.2-.1.3-.2.4h0c-.2.2-.5.2-.7,0-.1,0-.2-.2-.2-.4Z"/></svg>
+						</button>
+						<button class="player-button" id="player-playpause" onclick="togglePlayPause();" data-active="1">
+							<svg viewBox="0 0 24 24" class="player-playpause-1"><path d="M9,22h-5V2h5v20ZM20,2h-5v20h5V2Z"/></svg>
+							<svg width="24" height="24" viewBox="0 0 24 24" class="player-playpause-2"><path d="M3 22v-20l18 10-18 10z"/></svg>
+						</button>
+						<button class="player-button" id="player-forward" onclick="skipForwards();">
+							<svg viewBox="0 0 24 24"><path d="M12,.2c3,0,5.7,1.1,7.9,3.1l2.7-2.7,1.2,8.6-8.7-1.1,2.7-2.7c-1.6-1.4-3.7-2.2-5.9-2.2C7.1,3.2,3.1,7.1,3.1,12s4,8.8,8.8,8.8,6.3-1.8,7.9-4.8l.3-.5,2.5,1.5-.2.4c-2,3.9-6,6.3-10.4,6.3C5.5,23.8.2,18.5.2,12S5.5.2,12,.2Z"/><path d="M8.5,9.1v.2c0,0,0,.2,0,.3,0,0-.1.2-.3.3-.1,0-.2.1-.4.2-.2,0-.3,0-.5,0h-.3s0,1.9,0,1.9h.3c.3,0,.6,0,.8-.1.1,0,.3-.1.4-.2v3.2s2,0,2,0v-5.9h-2ZM8.8,10.9h0s0,0,0,0c0,0,0,0,0,0Z"/><path d="M12.9,14.6c.4.3.9.4,1.4.4s1-.1,1.4-.4c.4-.3.7-.6.9-1.1.2-.5.3-1,.3-1.6s-.1-1.1-.3-1.6c-.2-.5-.5-.8-.9-1.1-.8-.5-2-.5-2.8,0-.4.3-.7.6-.9,1.1-.2.5-.3,1-.3,1.6s.1,1.1.3,1.6c.2.5.5.8.9,1.1ZM13.7,12.7c0-.2,0-.4,0-.7s0-.5,0-.7c0-.2.1-.3.2-.4,0,0,.2-.1.3-.1s.3,0,.3.1c.1,0,.2.2.2.4,0,.2,0,.4,0,.7s0,.5,0,.7c0,.2-.1.3-.2.4h0c-.2.2-.5.2-.7,0-.1,0-.2-.2-.2-.4Z"/></svg>
+						</button>
+					</div>
+		
+					<div class="player-spacer"></div>
+		
+					<div class="player-section" id="player-playbar">
+						<div class="player-time">0:00</div>
+						<input type="range" class="player-playbar" min="0" max="100" value="0" oninput="skipToTime(this.value);">
+						<div class="player-duration">0:00</div>
+					</div>
+		
+					<div class="player-spacer"></div>
+		
+					<div class="player-section" id="player-volume">
+						<button class="player-button" id="player-mute" onclick="toggleMute();" data-active="0">
+							<svg width="24" height="24" viewBox="0 0 24 24" class="player-mute-1"><path d="M19 7.358v15.642l-8-5v-.785l8-9.857zm3-6.094l-1.548-1.264-3.446 4.247-6.006 3.753v3.646l-2 2.464v-6.11h-4v10h.843l-3.843 4.736 1.548 1.264 18.452-22.736z"/></svg>
+							<svg width="24" height="24" viewBox="0 0 24 24" class="player-mute-2"><path d="M6 7l8-5v20l-8-5v-10zm-6 10h4v-10h-4v10zm20.264-13.264l-1.497 1.497c1.847 1.783 2.983 4.157 2.983 6.767 0 2.61-1.135 4.984-2.983 6.766l1.498 1.498c2.305-2.153 3.735-5.055 3.735-8.264s-1.43-6.11-3.736-8.264zm-.489 8.264c0-2.084-.915-3.967-2.384-5.391l-1.503 1.503c1.011 1.049 1.637 2.401 1.637 3.888 0 1.488-.623 2.841-1.634 3.891l1.503 1.503c1.468-1.424 2.381-3.309 2.381-5.394z"/></svg>
+						</button>
+						<input type="range" class="player-volume" min="0" max="100" value="80" oninput="changeVolume(this.value/100);">
+					</div>
+		
+					<div class="player-spacer"></div>
+		
+					<div class="player-section">
+						<a class="player-button" id="player-download" href="" download>
+							<span>Download</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		
+			<div class="info-container" data-active="0">
+				<div class="info-content">
+					<p>
+						“BGM” is short for background music. That’s what this site is — a whole lot of background music. Music for what? Maybe a movie, video game, or YouTube video that hasn’t been made yet. Whatever it is, that’s up to you. I just make the music.
+					</p>
+					<p>
+						All of this music on this site is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons: By Attribution 4.0 License</a>. That means you are free to use this music however you’d like, as long as you credit Gabriel Drozdov (me!) as its creator.
+					</p>
+					<p>
+						For more web-based musical projects, check out <a href="https://barcoloudly.com/" target="_blank">Barco&nbsp;Loudly</a>. This site is typeset using Limkin by <a href="https://toomuchtype.com/" target="_blank">Too&nbsp;Much&nbsp;Type</a>. For more cool websites (or if you’re looking to make a website with us), check out <a href="https://noreplica.com/" target="_blank">No&nbsp;Replica</a>.
+					</p>
+					<p>
+						<span onclick="toggleInfo();" class="info-close">Go back to the music</span>
+					</p>
+				</div>
+			</div>
+		
+			<script src="/script.js"></script>
+		</body>
+		</html>
+	
