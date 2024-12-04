@@ -83,7 +83,7 @@ body {
 }
 .header-marquee * {
 	font-size: 14px;
-	animation: header-marquee linear 5s infinite;
+	animation: header-marquee linear 5s infinite reverse;
 }
 @keyframes header-marquee {
 	from {
