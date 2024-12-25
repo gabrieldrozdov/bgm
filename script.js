@@ -52,14 +52,17 @@ body.addEventListener('wheel', setAxes);
 
 // Gradually shift color
 function setColor() {
-	baseHue++;
+	baseHue += .5;
+	if (baseHue >= 360) {
+		baseHue = 0;
+	}
 	updateColor();
 }
-setInterval(setColor, 100);
+setInterval(setColor, 50);
 
 // Update color
 function updateColor() {
-	root.style.setProperty('--base-hue', Math.round(percentScrolled*document.documentElement.scrollHeight/50)+baseHue + "deg");
+	root.style.setProperty('--base-hue', percentScrolled*document.documentElement.scrollHeight/50+baseHue + "deg");
 }
 
 // Sorting

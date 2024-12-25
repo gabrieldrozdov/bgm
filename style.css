@@ -26,14 +26,12 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	/* scroll-snap-type: y mandatory; */
 }
 body {
 	font-family: "Limkin", sans-serif;
 	font-variation-settings: "wght" 700, "SRFF" 0;
 	font-weight: 700;
 	background: linear-gradient(to top left, var(--primary-alt) 0%, var(--primary) 100%);
-	/* scroll-snap-type: y mandatory; */
 }
 
 /* Nav */
